@@ -23,9 +23,9 @@ A comprehensive real-time sign language recognition system using deep learning a
 
 ## 📊 Model Performance
 
-- **MobileNet Model**: ~97.5% accuracy
-- **ResNet Model**: ~98.5% accuracy
-- **Ensemble Model**: ~99.0% accuracy
+- **MobileNet Model**: ~97.3% accuracy
+- **ResNet Model**: ~97.7% accuracy
+- **Ensemble Model**: ~98.0% accuracy
 - **Real-time Processing**: 10 FPS with webcam input
 
 ## 🚀 Quick Start
