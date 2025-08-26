@@ -1,0 +1,397 @@
+2025-08-07 22:22:50,661 - INFO - Starting sign language recognition training pipeline...
+2025-08-07 22:22:50,664 - INFO - Configuring GPU for optimal performance...
+2025-08-07 22:22:50,678 - WARNING - No GPU found. Training will be slow on CPU!
+2025-08-07 22:22:50,681 - INFO - Created directory: temp_data/train/
+2025-08-07 22:22:50,682 - INFO - Created directory: temp_data/val/
+2025-08-07 22:22:50,683 - INFO - Created directory: temp_data/test/
+2025-08-07 22:22:50,683 - INFO - Created directory: models
+2025-08-07 22:22:50,684 - INFO - Created directory: logs
+2025-08-07 22:22:50,685 - INFO - Created directory: results
+2025-08-07 22:22:50,687 - INFO - Found 26 classes: ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z']
+2025-08-07 22:22:50,722 - INFO - Class A: 1700 images
+2025-08-07 22:22:50,758 - INFO - Class B: 1700 images
+2025-08-07 22:22:50,765 - INFO - Class C: 1651 images
+2025-08-07 22:22:50,770 - INFO - Class D: 1700 images
+2025-08-07 22:22:50,775 - INFO - Class E: 1528 images
+2025-08-07 22:22:50,806 - INFO - Class F: 1700 images
+2025-08-07 22:22:50,837 - INFO - Class G: 1700 images
+2025-08-07 22:22:50,876 - INFO - Class H: 1700 images
+2025-08-07 22:22:50,911 - INFO - Class I: 1700 images
+2025-08-07 22:22:50,918 - INFO - Class J: 1700 images
+2025-08-07 22:22:50,923 - INFO - Class K: 1700 images
+2025-08-07 22:22:50,962 - INFO - Class L: 1700 images
+2025-08-07 22:22:50,998 - INFO - Class M: 1700 images
+2025-08-07 22:22:51,029 - INFO - Class N: 1700 images
+2025-08-07 22:22:51,060 - INFO - Class O: 1700 images
+2025-08-07 22:22:51,091 - INFO - Class P: 1700 images
+2025-08-07 22:22:51,126 - INFO - Class Q: 1700 images
+2025-08-07 22:22:51,157 - INFO - Class R: 1700 images
+2025-08-07 22:22:51,191 - INFO - Class S: 1700 images
+2025-08-07 22:22:51,232 - INFO - Class T: 1700 images
+2025-08-07 22:22:51,265 - INFO - Class U: 1700 images
+2025-08-07 22:22:51,270 - INFO - Class V: 1700 images
+2025-08-07 22:22:51,302 - INFO - Class W: 1700 images
+2025-08-07 22:22:51,335 - INFO - Class X: 1700 images
+2025-08-07 22:22:51,363 - INFO - Class Y: 1700 images
+2025-08-07 22:22:51,396 - INFO - Class Z: 1700 images
+2025-08-07 22:23:11,385 - INFO - Cleaned directory: temp_data/train/
+2025-08-07 22:23:13,977 - INFO - Cleaned directory: temp_data/val/
+2025-08-07 22:24:06,013 - INFO - Cleaned directory: temp_data/test/
+2025-08-07 22:25:14,621 - INFO - Class A: 1224 train, 136 val, 340 test
+2025-08-07 22:25:36,168 - INFO - Class B: 1224 train, 136 val, 340 test
+2025-08-07 22:26:27,013 - INFO - Class C: 1189 train, 132 val, 330 test
+2025-08-07 22:27:19,497 - INFO - Class D: 1224 train, 136 val, 340 test
+2025-08-07 22:27:40,189 - INFO - Class E: 1101 train, 122 val, 305 test
+2025-08-07 22:28:01,289 - INFO - Class F: 1224 train, 136 val, 340 test
+2025-08-07 22:28:22,667 - INFO - Class G: 1224 train, 136 val, 340 test
+2025-08-07 22:33:51,665 - INFO - Starting sign language recognition training pipeline...
+2025-08-07 22:33:51,666 - INFO - Configuring GPU for optimal performance...
+2025-08-07 22:33:51,673 - WARNING - No GPU found. Training will be slow on CPU!
+2025-08-07 22:33:51,674 - INFO - Created directory: temp_data/train/
+2025-08-07 22:33:51,676 - INFO - Created directory: temp_data/val/
+2025-08-07 22:33:51,677 - INFO - Created directory: temp_data/test/
+2025-08-07 22:33:51,679 - INFO - Created directory: models
+2025-08-07 22:33:51,682 - INFO - Created directory: logs
+2025-08-07 22:33:51,685 - INFO - Created directory: results
+2025-08-07 22:33:51,686 - INFO - Found 26 classes: ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z']
+2025-08-07 22:33:51,688 - INFO - Class A: 1700 images
+2025-08-07 22:33:51,692 - INFO - Class B: 1700 images
+2025-08-07 22:33:51,698 - INFO - Class C: 1700 images
+2025-08-07 22:33:51,703 - INFO - Class D: 1700 images
+2025-08-07 22:33:51,706 - INFO - Class E: 1700 images
+2025-08-07 22:33:51,709 - INFO - Class F: 1700 images
+2025-08-07 22:33:51,713 - INFO - Class G: 1700 images
+2025-08-07 22:33:51,717 - INFO - Class H: 1700 images
+2025-08-07 22:33:51,721 - INFO - Class I: 1700 images
+2025-08-07 22:33:51,726 - INFO - Class J: 1700 images
+2025-08-07 22:33:51,730 - INFO - Class K: 1700 images
+2025-08-07 22:33:51,735 - INFO - Class L: 1700 images
+2025-08-07 22:33:51,736 - INFO - Class M: 1700 images
+2025-08-07 22:33:51,741 - INFO - Class N: 1700 images
+2025-08-07 22:33:51,746 - INFO - Class O: 1700 images
+2025-08-07 22:33:51,747 - INFO - Class P: 1700 images
+2025-08-07 22:33:51,749 - INFO - Class Q: 1700 images
+2025-08-07 22:33:51,750 - INFO - Class R: 1700 images
+2025-08-07 22:33:51,753 - INFO - Class S: 1700 images
+2025-08-07 22:33:51,757 - INFO - Class T: 1700 images
+2025-08-07 22:33:51,763 - INFO - Class U: 1700 images
+2025-08-07 22:33:51,765 - INFO - Class V: 1700 images
+2025-08-07 22:33:51,772 - INFO - Class W: 1700 images
+2025-08-07 22:33:51,780 - INFO - Class X: 1700 images
+2025-08-07 22:33:51,786 - INFO - Class Y: 1700 images
+2025-08-07 22:33:51,791 - INFO - Class Z: 1700 images
+2025-08-07 22:33:53,789 - INFO - Cleaned directory: temp_data/train/
+2025-08-07 22:33:54,086 - INFO - Cleaned directory: temp_data/val/
+2025-08-07 22:33:54,546 - INFO - Cleaned directory: temp_data/test/
+2025-08-07 22:33:59,426 - INFO - Class A: 1224 train, 136 val, 340 test
+2025-08-07 22:34:03,485 - INFO - Class B: 1224 train, 136 val, 340 test
+2025-08-07 22:34:16,513 - INFO - Class C: 1224 train, 136 val, 340 test
+2025-08-07 22:34:20,239 - INFO - Class D: 1224 train, 136 val, 340 test
+2025-08-07 22:34:34,776 - INFO - Class E: 1224 train, 136 val, 340 test
+2025-08-07 22:34:40,248 - INFO - Class F: 1224 train, 136 val, 340 test
+2025-08-07 22:34:45,217 - INFO - Class G: 1224 train, 136 val, 340 test
+2025-08-07 22:34:59,634 - INFO - Class H: 1224 train, 136 val, 340 test
+2025-08-07 22:35:41,819 - INFO - Class I: 1224 train, 136 val, 340 test
+2025-08-07 23:05:24,626 - INFO - Configuring GPU for optimal performance...
+2025-08-07 23:05:24,635 - WARNING - No GPU found. Training will be slow on CPU!
+2025-08-07 23:05:24,644 - INFO - Created directory: temp_data/train/
+2025-08-07 23:05:24,646 - INFO - Created directory: temp_data/val/
+2025-08-07 23:05:24,647 - INFO - Created directory: temp_data/test/
+2025-08-07 23:05:24,649 - INFO - Created directory: models
+2025-08-07 23:05:24,651 - INFO - Created directory: logs
+2025-08-07 23:05:24,653 - INFO - Created directory: results
+2025-08-07 23:05:24,654 - INFO - Created directory: graphs
+2025-08-07 23:05:24,655 - INFO - Found 26 classes: ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z']
+2025-08-07 23:05:24,656 - INFO - Class A: 1700 images
+2025-08-07 23:05:24,660 - INFO - Class B: 1700 images
+2025-08-07 23:05:24,667 - INFO - Class C: 1700 images
+2025-08-07 23:05:24,668 - INFO - Class D: 1700 images
+2025-08-07 23:05:24,669 - INFO - Class E: 1700 images
+2025-08-07 23:05:24,671 - INFO - Class F: 1700 images
+2025-08-07 23:05:24,675 - INFO - Class G: 1700 images
+2025-08-07 23:05:24,679 - INFO - Class H: 1700 images
+2025-08-07 23:05:24,682 - INFO - Class I: 1700 images
+2025-08-07 23:05:24,684 - INFO - Class J: 1700 images
+2025-08-07 23:05:24,687 - INFO - Class K: 1700 images
+2025-08-07 23:05:24,691 - INFO - Class L: 1700 images
+2025-08-07 23:05:24,696 - INFO - Class M: 1700 images
+2025-08-07 23:05:24,697 - INFO - Class N: 1700 images
+2025-08-07 23:05:24,700 - INFO - Class O: 1700 images
+2025-08-07 23:05:24,704 - INFO - Class P: 1700 images
+2025-08-07 23:05:24,710 - INFO - Class Q: 1700 images
+2025-08-07 23:05:24,715 - INFO - Class R: 1700 images
+2025-08-07 23:05:24,718 - INFO - Class S: 1700 images
+2025-08-07 23:05:24,719 - INFO - Class T: 1700 images
+2025-08-07 23:05:24,722 - INFO - Class U: 1700 images
+2025-08-07 23:05:24,727 - INFO - Class V: 1700 images
+2025-08-07 23:05:24,731 - INFO - Class W: 1700 images
+2025-08-07 23:05:24,733 - INFO - Class X: 1700 images
+2025-08-07 23:05:24,736 - INFO - Class Y: 1700 images
+2025-08-07 23:05:24,741 - INFO - Class Z: 1700 images
+2025-08-07 23:05:28,083 - INFO - Cleaned directory: temp_data/train/
+2025-08-07 23:05:28,359 - INFO - Cleaned directory: temp_data/val/
+2025-08-07 23:05:29,156 - INFO - Cleaned directory: temp_data/test/
+2025-08-07 23:06:07,462 - INFO - Class A: 1224 train, 136 val, 340 test
+2025-08-07 23:06:46,695 - INFO - Class B: 1224 train, 136 val, 340 test
+2025-08-07 23:07:24,034 - INFO - Class C: 1224 train, 136 val, 340 test
+2025-08-07 23:08:01,344 - INFO - Class D: 1224 train, 136 val, 340 test
+2025-08-07 23:08:27,221 - INFO - Class E: 1224 train, 136 val, 340 test
+2025-08-07 23:08:30,284 - INFO - Class F: 1224 train, 136 val, 340 test
+2025-08-07 23:08:34,229 - INFO - Class G: 1224 train, 136 val, 340 test
+2025-08-07 23:08:38,267 - INFO - Class H: 1224 train, 136 val, 340 test
+2025-08-07 23:08:41,910 - INFO - Class I: 1224 train, 136 val, 340 test
+2025-08-07 23:08:57,782 - INFO - Class J: 1224 train, 136 val, 340 test
+2025-08-07 23:09:36,088 - INFO - Class K: 1224 train, 136 val, 340 test
+2025-08-07 23:10:13,961 - INFO - Class L: 1224 train, 136 val, 340 test
+2025-08-07 23:10:51,242 - INFO - Class M: 1224 train, 136 val, 340 test
+2025-08-07 23:11:29,045 - INFO - Class N: 1224 train, 136 val, 340 test
+2025-08-07 23:12:10,036 - INFO - Class O: 1224 train, 136 val, 340 test
+2025-08-07 23:12:47,676 - INFO - Class P: 1224 train, 136 val, 340 test
+2025-08-07 23:13:25,549 - INFO - Class Q: 1224 train, 136 val, 340 test
+2025-08-07 23:14:03,220 - INFO - Class R: 1224 train, 136 val, 340 test
+2025-08-07 23:14:40,174 - INFO - Class S: 1224 train, 136 val, 340 test
+2025-08-07 23:15:16,222 - INFO - Class T: 1224 train, 136 val, 340 test
+2025-08-07 23:15:51,515 - INFO - Class U: 1224 train, 136 val, 340 test
+2025-08-07 23:16:24,822 - INFO - Class V: 1224 train, 136 val, 340 test
+2025-08-07 23:16:55,919 - INFO - Class W: 1224 train, 136 val, 340 test
+2025-08-07 23:17:28,479 - INFO - Class X: 1224 train, 136 val, 340 test
+2025-08-07 23:18:00,447 - INFO - Class Y: 1224 train, 136 val, 340 test
+2025-08-07 23:18:32,363 - INFO - Class Z: 1224 train, 136 val, 340 test
+2025-08-07 23:18:32,368 - ERROR - Training pipeline failed: ImageDataGenerator.flow_from_directory() got an unexpected keyword argument 'workers'
+2025-08-07 23:21:23,732 - INFO - Configuring GPU for optimal performance...
+2025-08-07 23:21:23,743 - WARNING - No GPU found. Training will be slow on CPU!
+2025-08-07 23:21:23,747 - INFO - Created directory: temp_data/train/
+2025-08-07 23:21:23,749 - INFO - Created directory: temp_data/val/
+2025-08-07 23:21:23,750 - INFO - Created directory: temp_data/test/
+2025-08-07 23:21:23,751 - INFO - Created directory: models
+2025-08-07 23:21:23,752 - INFO - Created directory: logs
+2025-08-07 23:21:23,753 - INFO - Created directory: results
+2025-08-07 23:21:23,755 - INFO - Created directory: graphs
+2025-08-07 23:21:23,758 - INFO - Found 26 classes: ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z']
+2025-08-07 23:21:23,804 - INFO - Class A: 1700 images
+2025-08-07 23:21:23,847 - INFO - Class B: 1700 images
+2025-08-07 23:21:23,877 - INFO - Class C: 1700 images
+2025-08-07 23:21:23,918 - INFO - Class D: 1700 images
+2025-08-07 23:21:23,945 - INFO - Class E: 1700 images
+2025-08-07 23:21:23,986 - INFO - Class F: 1700 images
+2025-08-07 23:21:24,020 - INFO - Class G: 1700 images
+2025-08-07 23:21:24,053 - INFO - Class H: 1700 images
+2025-08-07 23:21:24,083 - INFO - Class I: 1700 images
+2025-08-07 23:21:24,119 - INFO - Class J: 1700 images
+2025-08-07 23:21:24,159 - INFO - Class K: 1700 images
+2025-08-07 23:21:24,191 - INFO - Class L: 1700 images
+2025-08-07 23:21:24,237 - INFO - Class M: 1700 images
+2025-08-07 23:21:24,284 - INFO - Class N: 1700 images
+2025-08-07 23:21:24,309 - INFO - Class O: 1700 images
+2025-08-07 23:21:24,356 - INFO - Class P: 1700 images
+2025-08-07 23:21:24,382 - INFO - Class Q: 1700 images
+2025-08-07 23:21:24,411 - INFO - Class R: 1700 images
+2025-08-07 23:21:24,450 - INFO - Class S: 1700 images
+2025-08-07 23:21:24,482 - INFO - Class T: 1700 images
+2025-08-07 23:21:24,527 - INFO - Class U: 1700 images
+2025-08-07 23:21:24,562 - INFO - Class V: 1700 images
+2025-08-07 23:21:24,568 - INFO - Class W: 1700 images
+2025-08-07 23:21:24,572 - INFO - Class X: 1700 images
+2025-08-07 23:21:24,577 - INFO - Class Y: 1700 images
+2025-08-07 23:21:24,581 - INFO - Class Z: 1700 images
+2025-08-07 23:21:46,343 - INFO - Cleaned directory: temp_data/train/
+2025-08-07 23:21:48,794 - INFO - Cleaned directory: temp_data/val/
+2025-08-07 23:21:55,427 - INFO - Cleaned directory: temp_data/test/
+2025-08-07 23:27:41,395 - INFO - Configuring GPU for optimal performance...
+2025-08-07 23:27:41,401 - WARNING - No GPU found. Training will be slow on CPU!
+2025-08-07 23:27:41,563 - INFO - Created directory: temp_data/train/
+2025-08-07 23:27:41,564 - INFO - Created directory: temp_data/val/
+2025-08-07 23:27:41,584 - INFO - Created directory: temp_data/test/
+2025-08-07 23:27:41,603 - INFO - Created directory: models
+2025-08-07 23:27:41,605 - INFO - Created directory: logs
+2025-08-07 23:27:41,625 - INFO - Created directory: results
+2025-08-07 23:27:41,642 - INFO - Created directory: graphs
+2025-08-07 23:27:41,645 - INFO - Found 26 classes: ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z']
+2025-08-07 23:27:41,649 - INFO - Class A: 1700 images
+2025-08-07 23:27:41,655 - INFO - Class B: 1700 images
+2025-08-07 23:27:41,662 - INFO - Class C: 1700 images
+2025-08-07 23:27:41,669 - INFO - Class D: 1700 images
+2025-08-07 23:27:41,675 - INFO - Class E: 1700 images
+2025-08-07 23:27:41,682 - INFO - Class F: 1700 images
+2025-08-07 23:27:41,688 - INFO - Class G: 1700 images
+2025-08-07 23:27:41,696 - INFO - Class H: 1700 images
+2025-08-07 23:27:41,701 - INFO - Class I: 1700 images
+2025-08-07 23:27:41,711 - INFO - Class J: 1700 images
+2025-08-07 23:27:41,714 - INFO - Class K: 1700 images
+2025-08-07 23:27:41,716 - INFO - Class L: 1700 images
+2025-08-07 23:27:41,720 - INFO - Class M: 1700 images
+2025-08-07 23:27:41,727 - INFO - Class N: 1700 images
+2025-08-07 23:27:41,734 - INFO - Class O: 1700 images
+2025-08-07 23:27:41,741 - INFO - Class P: 1700 images
+2025-08-07 23:27:41,743 - INFO - Class Q: 1700 images
+2025-08-07 23:27:41,746 - INFO - Class R: 1700 images
+2025-08-07 23:27:41,752 - INFO - Class S: 1700 images
+2025-08-07 23:27:41,761 - INFO - Class T: 1700 images
+2025-08-07 23:27:41,768 - INFO - Class U: 1700 images
+2025-08-07 23:27:41,770 - INFO - Class V: 1700 images
+2025-08-07 23:27:41,771 - INFO - Class W: 1700 images
+2025-08-07 23:27:41,774 - INFO - Class X: 1700 images
+2025-08-07 23:27:41,781 - INFO - Class Y: 1700 images
+2025-08-07 23:27:41,787 - INFO - Class Z: 1700 images
+2025-08-07 23:27:42,106 - INFO - Data generators created. Classes: 1
+2025-08-07 23:27:42,108 - INFO - Batch size: 32
+2025-08-07 23:28:04,352 - ERROR - Training pipeline failed: Arguments `target` and `output` must have the same shape. Received: target.shape=(None, 1), output.shape=(None, 26)
+2025-08-07 23:29:06,766 - INFO - Configuring GPU for optimal performance...
+2025-08-07 23:29:06,771 - WARNING - No GPU found. Training will be slow on CPU!
+2025-08-07 23:29:06,780 - INFO - Created directory: temp_data/train/
+2025-08-07 23:29:06,782 - INFO - Created directory: temp_data/val/
+2025-08-07 23:29:06,784 - INFO - Created directory: temp_data/test/
+2025-08-07 23:29:06,785 - INFO - Created directory: models
+2025-08-07 23:29:06,785 - INFO - Created directory: logs
+2025-08-07 23:29:06,786 - INFO - Created directory: results
+2025-08-07 23:29:06,786 - INFO - Created directory: graphs
+2025-08-07 23:29:06,791 - INFO - Found 26 classes: ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z']
+2025-08-07 23:29:06,800 - INFO - Class A: 1700 images
+2025-08-07 23:29:06,802 - INFO - Class B: 1700 images
+2025-08-07 23:29:06,808 - INFO - Class C: 1700 images
+2025-08-07 23:29:06,813 - INFO - Class D: 1700 images
+2025-08-07 23:29:06,814 - INFO - Class E: 1700 images
+2025-08-07 23:29:06,816 - INFO - Class F: 1700 images
+2025-08-07 23:29:06,821 - INFO - Class G: 1700 images
+2025-08-07 23:29:06,827 - INFO - Class H: 1700 images
+2025-08-07 23:29:06,832 - INFO - Class I: 1700 images
+2025-08-07 23:29:06,835 - INFO - Class J: 1700 images
+2025-08-07 23:29:06,839 - INFO - Class K: 1700 images
+2025-08-07 23:29:06,850 - INFO - Class L: 1700 images
+2025-08-07 23:29:06,853 - INFO - Class M: 1700 images
+2025-08-07 23:29:06,859 - INFO - Class N: 1700 images
+2025-08-07 23:29:06,863 - INFO - Class O: 1700 images
+2025-08-07 23:29:06,864 - INFO - Class P: 1700 images
+2025-08-07 23:29:06,869 - INFO - Class Q: 1700 images
+2025-08-07 23:29:06,874 - INFO - Class R: 1700 images
+2025-08-07 23:29:06,882 - INFO - Class S: 1700 images
+2025-08-07 23:29:06,889 - INFO - Class T: 1700 images
+2025-08-07 23:29:06,905 - INFO - Class U: 1700 images
+2025-08-07 23:29:06,911 - INFO - Class V: 1700 images
+2025-08-07 23:29:06,915 - INFO - Class W: 1700 images
+2025-08-07 23:29:06,917 - INFO - Class X: 1700 images
+2025-08-07 23:29:06,919 - INFO - Class Y: 1700 images
+2025-08-07 23:29:06,920 - INFO - Class Z: 1700 images
+2025-08-07 23:29:07,214 - INFO - Cleaned directory: temp_data/train/
+2025-08-07 23:29:07,273 - INFO - Cleaned directory: temp_data/val/
+2025-08-07 23:29:07,592 - INFO - Cleaned directory: temp_data/test/
+2025-08-07 23:29:08,956 - INFO - Class A: 1224 train, 136 val, 340 test
+2025-08-07 23:29:09,355 - INFO - Class A: 1224 train, 136 val, 340 test
+2025-08-07 23:29:12,969 - INFO - Class A: 1224 train, 136 val, 340 test
+2025-08-07 23:29:14,426 - INFO - Class B: 1224 train, 136 val, 340 test
+2025-08-07 23:29:14,970 - INFO - Class B: 1224 train, 136 val, 340 test
+2025-08-07 23:29:19,753 - INFO - Class B: 1224 train, 136 val, 340 test
+2025-08-07 23:29:21,044 - INFO - Class C: 1224 train, 136 val, 340 test
+2025-08-07 23:29:21,558 - INFO - Class C: 1224 train, 136 val, 340 test
+2025-08-07 23:29:26,267 - INFO - Class C: 1224 train, 136 val, 340 test
+2025-08-07 23:29:27,704 - INFO - Class D: 1224 train, 136 val, 340 test
+2025-08-07 23:29:28,278 - INFO - Class D: 1224 train, 136 val, 340 test
+2025-08-07 23:29:32,716 - INFO - Class D: 1224 train, 136 val, 340 test
+2025-08-07 23:29:33,996 - INFO - Class E: 1224 train, 136 val, 340 test
+2025-08-07 23:29:34,486 - INFO - Class E: 1224 train, 136 val, 340 test
+2025-08-07 23:29:38,883 - INFO - Class E: 1224 train, 136 val, 340 test
+2025-08-07 23:29:40,190 - INFO - Class F: 1224 train, 136 val, 340 test
+2025-08-07 23:29:40,708 - INFO - Class F: 1224 train, 136 val, 340 test
+2025-08-07 23:29:44,907 - INFO - Class F: 1224 train, 136 val, 340 test
+2025-08-07 23:29:46,211 - INFO - Class G: 1224 train, 136 val, 340 test
+2025-08-07 23:29:46,721 - INFO - Class G: 1224 train, 136 val, 340 test
+2025-08-07 23:29:51,713 - INFO - Class G: 1224 train, 136 val, 340 test
+2025-08-07 23:29:53,248 - INFO - Class H: 1224 train, 136 val, 340 test
+2025-08-07 23:29:53,926 - INFO - Class H: 1224 train, 136 val, 340 test
+2025-08-07 23:29:58,363 - INFO - Class H: 1224 train, 136 val, 340 test
+2025-08-07 23:29:59,687 - INFO - Class I: 1224 train, 136 val, 340 test
+2025-08-07 23:30:00,346 - INFO - Class I: 1224 train, 136 val, 340 test
+2025-08-07 23:30:06,274 - INFO - Class I: 1224 train, 136 val, 340 test
+2025-08-07 23:30:07,736 - INFO - Class J: 1224 train, 136 val, 340 test
+2025-08-07 23:30:08,272 - INFO - Class J: 1224 train, 136 val, 340 test
+2025-08-07 23:30:13,208 - INFO - Class J: 1224 train, 136 val, 340 test
+2025-08-07 23:30:14,884 - INFO - Class K: 1224 train, 136 val, 340 test
+2025-08-07 23:30:15,554 - INFO - Class K: 1224 train, 136 val, 340 test
+2025-08-07 23:30:20,467 - INFO - Class K: 1224 train, 136 val, 340 test
+2025-08-07 23:30:22,082 - INFO - Class L: 1224 train, 136 val, 340 test
+2025-08-07 23:30:22,528 - INFO - Class L: 1224 train, 136 val, 340 test
+2025-08-07 23:30:27,177 - INFO - Class L: 1224 train, 136 val, 340 test
+2025-08-07 23:30:28,701 - INFO - Class M: 1224 train, 136 val, 340 test
+2025-08-07 23:30:29,320 - INFO - Class M: 1224 train, 136 val, 340 test
+2025-08-07 23:30:34,067 - INFO - Class M: 1224 train, 136 val, 340 test
+2025-08-07 23:30:35,749 - INFO - Class N: 1224 train, 136 val, 340 test
+2025-08-07 23:30:36,282 - INFO - Class N: 1224 train, 136 val, 340 test
+2025-08-07 23:30:40,775 - INFO - Class N: 1224 train, 136 val, 340 test
+2025-08-07 23:30:42,183 - INFO - Class O: 1224 train, 136 val, 340 test
+2025-08-07 23:30:42,736 - INFO - Class O: 1224 train, 136 val, 340 test
+2025-08-07 23:30:46,932 - INFO - Class O: 1224 train, 136 val, 340 test
+2025-08-07 23:30:48,415 - INFO - Class P: 1224 train, 136 val, 340 test
+2025-08-07 23:30:49,233 - INFO - Class P: 1224 train, 136 val, 340 test
+2025-08-07 23:30:53,654 - INFO - Class P: 1224 train, 136 val, 340 test
+2025-08-07 23:30:55,126 - INFO - Class Q: 1224 train, 136 val, 340 test
+2025-08-07 23:30:55,674 - INFO - Class Q: 1224 train, 136 val, 340 test
+2025-08-07 23:30:59,934 - INFO - Class Q: 1224 train, 136 val, 340 test
+2025-08-07 23:31:01,452 - INFO - Class R: 1224 train, 136 val, 340 test
+2025-08-07 23:31:02,006 - INFO - Class R: 1224 train, 136 val, 340 test
+2025-08-07 23:31:06,794 - INFO - Class R: 1224 train, 136 val, 340 test
+2025-08-07 23:31:08,210 - INFO - Class S: 1224 train, 136 val, 340 test
+2025-08-07 23:31:08,786 - INFO - Class S: 1224 train, 136 val, 340 test
+2025-08-07 23:31:13,360 - INFO - Class S: 1224 train, 136 val, 340 test
+2025-08-07 23:31:14,807 - INFO - Class T: 1224 train, 136 val, 340 test
+2025-08-07 23:31:15,348 - INFO - Class T: 1224 train, 136 val, 340 test
+2025-08-07 23:31:20,168 - INFO - Class T: 1224 train, 136 val, 340 test
+2025-08-07 23:31:21,634 - INFO - Class U: 1224 train, 136 val, 340 test
+2025-08-07 23:31:22,195 - INFO - Class U: 1224 train, 136 val, 340 test
+2025-08-07 23:31:26,834 - INFO - Class U: 1224 train, 136 val, 340 test
+2025-08-07 23:31:28,178 - INFO - Class V: 1224 train, 136 val, 340 test
+2025-08-07 23:31:28,736 - INFO - Class V: 1224 train, 136 val, 340 test
+2025-08-07 23:31:33,333 - INFO - Class V: 1224 train, 136 val, 340 test
+2025-08-07 23:31:34,785 - INFO - Class W: 1224 train, 136 val, 340 test
+2025-08-07 23:31:35,311 - INFO - Class W: 1224 train, 136 val, 340 test
+2025-08-07 23:31:40,151 - INFO - Class W: 1224 train, 136 val, 340 test
+2025-08-07 23:31:41,622 - INFO - Class X: 1224 train, 136 val, 340 test
+2025-08-07 23:31:42,158 - INFO - Class X: 1224 train, 136 val, 340 test
+2025-08-07 23:31:46,871 - INFO - Class X: 1224 train, 136 val, 340 test
+2025-08-07 23:31:48,398 - INFO - Class Y: 1224 train, 136 val, 340 test
+2025-08-07 23:31:49,030 - INFO - Class Y: 1224 train, 136 val, 340 test
+2025-08-07 23:31:53,360 - INFO - Class Y: 1224 train, 136 val, 340 test
+2025-08-07 23:31:54,743 - INFO - Class Z: 1224 train, 136 val, 340 test
+2025-08-07 23:31:55,262 - INFO - Class Z: 1224 train, 136 val, 340 test
+2025-08-07 23:31:59,738 - INFO - Class Z: 1224 train, 136 val, 340 test
+2025-08-07 23:32:00,864 - INFO - Data generators created. Classes: 26
+2025-08-07 23:32:00,865 - INFO - Batch size: 32
+2025-08-07 23:50:32,667 - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-08-07 23:57:50,215 - INFO - Configuring GPU for optimal performance...
+2025-08-07 23:57:50,228 - WARNING - No GPU found. Training will be slow on CPU!
+2025-08-07 23:57:50,243 - INFO - Created directory: temp_data/train/
+2025-08-07 23:57:50,246 - INFO - Created directory: temp_data/val/
+2025-08-07 23:57:50,249 - INFO - Created directory: temp_data/test/
+2025-08-07 23:57:50,256 - INFO - Created directory: models
+2025-08-07 23:57:50,264 - INFO - Created directory: logs
+2025-08-07 23:57:50,267 - INFO - Created directory: results
+2025-08-07 23:57:50,272 - INFO - Created directory: graphs
+2025-08-07 23:57:50,276 - INFO - Found 26 classes: ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z']
+2025-08-07 23:57:50,282 - INFO - Class A: 1700 images
+2025-08-07 23:57:50,288 - INFO - Class B: 1700 images
+2025-08-07 23:57:50,293 - INFO - Class C: 1700 images
+2025-08-07 23:57:50,301 - INFO - Class D: 1700 images
+2025-08-07 23:57:50,307 - INFO - Class E: 1700 images
+2025-08-07 23:57:50,313 - INFO - Class F: 1700 images
+2025-08-07 23:57:50,321 - INFO - Class G: 1700 images
+2025-08-07 23:57:50,328 - INFO - Class H: 1700 images
+2025-08-07 23:57:50,334 - INFO - Class I: 1700 images
+2025-08-07 23:57:50,341 - INFO - Class J: 1700 images
+2025-08-07 23:57:50,347 - INFO - Class K: 1700 images
+2025-08-07 23:57:50,354 - INFO - Class L: 1700 images
+2025-08-07 23:57:50,358 - INFO - Class M: 1700 images
+2025-08-07 23:57:50,361 - INFO - Class N: 1700 images
+2025-08-07 23:57:50,366 - INFO - Class O: 1700 images
+2025-08-07 23:57:50,374 - INFO - Class P: 1700 images
+2025-08-07 23:57:50,384 - INFO - Class Q: 1700 images
+2025-08-07 23:57:50,392 - INFO - Class R: 1700 images
+2025-08-07 23:57:50,397 - INFO - Class S: 1700 images
+2025-08-07 23:57:50,403 - INFO - Class T: 1700 images
+2025-08-07 23:57:50,406 - INFO - Class U: 1700 images
+2025-08-07 23:57:50,412 - INFO - Class V: 1700 images
+2025-08-07 23:57:50,424 - INFO - Class W: 1700 images
+2025-08-07 23:57:50,435 - INFO - Class X: 1700 images
+2025-08-07 23:57:50,440 - INFO - Class Y: 1700 images
+2025-08-07 23:57:50,445 - INFO - Class Z: 1700 images
+2025-08-07 23:57:51,727 - INFO - Enhanced data generators created. Classes: 26
+2025-08-07 23:57:51,728 - INFO - Batch size: 24
+2025-08-07 23:57:51,729 - INFO - Image size: 160x160

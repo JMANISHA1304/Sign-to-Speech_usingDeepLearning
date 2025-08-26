@@ -1,0 +1,29 @@
+# Sign Language Recognition System Requirements
+# Core ML and Data Processing
+tensorflow>=2.10.0
+numpy>=1.21.0
+pandas>=1.3.0
+scikit-learn>=1.0.0
+
+# Computer Vision
+opencv-python>=4.5.0
+Pillow>=8.0.0
+
+# GUI and Visualization
+matplotlib>=3.5.0
+seaborn>=0.11.0
+
+# Speech and Audio
+pyttsx3>=2.90
+SpeechRecognition>=3.8.0
+pyaudio>=0.2.11
+
+# Utilities
+tqdm>=4.62.0
+pyyaml>=6.0
+psutil>=5.8.0
+
+# Optional: For enhanced features
+# mediapipe>=0.8.0  # For hand tracking
+# opencv-contrib-python>=4.5.0  # For additional OpenCV features
+
